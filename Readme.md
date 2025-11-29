@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛰️⚡ Aerial Object AI  
+# 🛰️⚡ Aerial Object Classification Detection   
 ### **Bird vs Drone — Smart Vision for the Sky**
 
 <img src="https://img.shields.io/badge/Deep%20Learning-TensorFlow-blue?logo=tensorflow&style=flat-square">
@@ -25,6 +25,7 @@ designed for ✈️ airports, 🛡️ security zones, 🏞️ wildlife monitorin
 ---
 
 ## 🧠 Tech Behind the System
+```
 
 | Component         |   Technology Used                    |
 |-------------------|--------------------------------------|
@@ -34,7 +35,7 @@ designed for ✈️ airports, 🛡️ security zones, 🏞️ wildlife monitorin
 | Interface         | Streamlit                            |
 | Language          | Python                               |
 | Dataset           | Custom — Bird vs Drone (YOLO Format) |
-
+```
 ---
 
 ## 🎯 Real-World Applications
@@ -58,6 +59,7 @@ designed for ✈️ airports, 🛡️ security zones, 🏞️ wildlife monitorin
 ---
 
 ## 📂 Project Structure
+```
 📁 Aerial Object Classification & Detection
 │
 ├── 🗂 dataset/
@@ -77,17 +79,16 @@ designed for ✈️ airports, 🛡️ security zones, 🏞️ wildlife monitorin
 │
 └── 🌐 streamlit_app/
 └── app.py
-
-
+```
 ---
 
 ## 🏆 Results Snapshot
-
+```
 | Model                      | Outcome                         |
 |----------------------------|---------------------------------|
 | **MobileNetV2 Classifier** | Predicts *Bird vs Drone*        |
 | **YOLOv8 Detection**       | Detects **both** simultaneously |
-
+```
 📌 *The system automatically switches based on user selection.*
 
 ---
@@ -97,11 +98,12 @@ designed for ✈️ airports, 🛡️ security zones, 🏞️ wildlife monitorin
 ### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 2️⃣ Run application
+```
 cd streamlit_app
 streamlit run app.py
-
+```
 🔮 Future Upgrade Ideas
 
 🟣 Add Bird Species Identification
