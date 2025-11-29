@@ -1,0 +1,10 @@
+Model: D:\Internships\labmentix\Aerial Object Classification & Detection\models\classification\best_transfer_model.h5
+
+              precision    recall  f1-score   support
+
+        bird       0.96      0.98      0.97       121
+       drone       0.98      0.95      0.96        94
+
+    accuracy                           0.97       215
+   macro avg       0.97      0.97      0.97       215
+weighted avg       0.97      0.97      0.97       215
